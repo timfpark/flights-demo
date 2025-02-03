@@ -1,0 +1,7 @@
+sqlx migrate revert
+sqlx migrate revert
+sqlx migrate revert
+sqlx migrate revert
+sqlx migrate run
+psql flights < data/airports.sql
+psql flights < data/airlines.sql

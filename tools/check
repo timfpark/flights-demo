@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# cargo update
+cargo test --bins --tests --examples
+cargo fmt --all --
+cargo clippy --all-targets --all-features --workspace --no-deps -- -D warnings
+rustup default nightly
+cargo udeps --all --all-targets
+rustup default stable
+cargo audit --ignore RUSTSEC-2023-0071
