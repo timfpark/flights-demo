@@ -6,3 +6,4 @@ legs: [{'fromId':'SFO.AIRPORT','toId':'OSL.AIRPORT','date':'2025-06-28'},{'fromI
 3. Show how complex response is
 4. Copy response and save in sfo-osl.json
 5. Generate deserialization structs with Prompt:
+6. Generate tests with "Add tests to cover common deserialization scenarios.  Use @sfo-osl.json as a fixture in these tests."
